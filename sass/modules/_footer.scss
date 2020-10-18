@@ -1,0 +1,35 @@
+.footer {
+  //background-color: $primary-color;
+  //background-image: linear-gradient(to right, #434343, rgb(26, 23, 23));
+  background-image: linear-gradient(to right, rgb(1, 67, 51), #3a094b);
+  margin: 0%;
+  padding: 0%;
+  width: $max-width;
+  height: 400px;
+  ul {
+    flex-direction: row;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+  li {
+    text-decoration: none;
+    list-style: none;
+    padding: 50px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .copyRight {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+}
